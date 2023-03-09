@@ -121,7 +121,6 @@
             doomPrivateDir = ./test/doom.d;
           };
         };
-        checks = import ./checks.nix { inherit system; } inputs;
       }) // {
         hmModule = import ./modules/home-manager.nix inputs;
       };
